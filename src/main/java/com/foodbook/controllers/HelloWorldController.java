@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorldController {
 	@RequestMapping("/")
 	public String index() {
-		return "FoodBook: Hello World!";
+		return "index";
 	}
 }
